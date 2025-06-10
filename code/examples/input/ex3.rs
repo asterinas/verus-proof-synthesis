@@ -22,6 +22,7 @@ fn fun(v: &mut Vec<usize>, a: &mut Vec<usize>, k: usize, N: i32)
     while (i < N as usize)
     {
         v.set(i, k + a[i]);
+        i = i + 1;
     }
 
 }

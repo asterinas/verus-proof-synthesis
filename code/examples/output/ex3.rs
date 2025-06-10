@@ -34,6 +34,7 @@ fn fun(v: &mut Vec<usize>, a: &mut Vec<usize>, k: usize, N: i32)
             forall |j:int| 0<= j <i ==> v[j] == k + j,
     {
         v.set(i, k + a[i]);
+        i = i + 1;
     }
 
 }
